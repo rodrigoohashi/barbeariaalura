@@ -1,0 +1,13 @@
+.rodape {
+    background-image: url(/assets/bg.jpg);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    
+}
+
+.copyright {
+    padding-bottom:1em;
+}

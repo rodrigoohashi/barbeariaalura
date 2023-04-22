@@ -1,0 +1,66 @@
+@import url(/styles/reset.css);
+@import url(/styles/header.css);
+@import url(/styles/footer.css);
+@import url(/styles/reposivo.css);
+
+.produtos {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.produtos .produtos__itens {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 6em 2em;
+    box-sizing: border-box;
+    border: 2px solid #000000;   
+    border-radius: 10px;
+    font-size: 1rem;        
+}
+
+.produto-preco {
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* HOVER */
+
+.produtos .produtos__itens:hover {
+    border-color: #C78C19;   
+}
+.produtos .produtos__itens:active{
+    border-color: #08C019;
+}
+.produtos .produtos__itens:hover h2 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 960px) {
+  
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .produtos .produtos__itens {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 0.5em;
+        padding: 3em 1.5em;
+        
+    }
+
+}

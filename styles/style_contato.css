@@ -1,0 +1,74 @@
+@import url(/styles/reset.css);
+@import url(/styles/header.css);
+@import url(/styles/footer.css);
+@import url(/styles/reposivo.css);
+
+.contatos .contatos_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+    width: 50%;
+}
+
+.dados {
+    padding: 0.6em 0;
+    
+}
+
+/* PREFERENCIA CONTATO */
+
+.info__horario{
+    display: flex;
+    padding: 1em 0;
+}
+
+/* ENVIAR */
+
+
+.enviar {
+    width: 40%;
+    padding: 0.6em 0;
+    background: #6c757d;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.enviar:hover {
+    background-color: #343a40;
+}
+
+.info {
+    padding-bottom: 0.4em;
+   
+}
+
+
+table {
+    margin: 1em;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+    
+    }
+
+    td, th {
+        border: 1px solid #000000;
+        padding: 8px 15px;
+    }
+
+    @media screen and (max-width: 960px) {
+        .contatos .contatos_form {
+            width: auto;
+    }      
+      
+        .enviar {
+            width: auto;
+        }
+    }

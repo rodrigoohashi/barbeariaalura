@@ -1,0 +1,56 @@
+@media screen and (max-width: 960px) {
+    
+/* HEADER */
+
+    .container__header {
+        display: flex;
+         
+    }
+
+    .itens__link{
+        padding-bottom: 0.2em;
+    } 
+
+    .nav__itens {
+        flex-direction: column;
+       
+    }
+        
+    .link {
+        font-size: 1rem;
+    }
+
+    .logo__barbearia {
+        max-width: 40%;
+    }
+
+    /* MAIN */
+
+    .container__texto {
+        display: flex;
+        padding: 0 1em;
+        overflow: hidden;
+    }
+
+    .utensilios {
+        max-width: 20%;
+    }
+
+    .barba {
+       max-width: 100%;
+       height: auto;
+    }
+
+    .beneficios {
+        margin: 1em;
+        
+    }
+
+    .mapa {
+        height: auto;
+        width: auto;
+    }
+
+
+
+}
